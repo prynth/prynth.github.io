@@ -20,9 +20,9 @@ After downloading the files use a service like [OshPark](https://oshpark.com/), 
 
 We have also created a Linux distribution for the Raspberry Pi, based on the official Raspbian Jessie Lite, but that automatically runs the Prynth software out-of-the-box.
 
-Download the image file and head to the documentation for [installation details](../documentation/rpi-image.html).
+Download the image file and head to the documentation for [installation details](../documentation/install-rpi-image.html).
 
-[Download Prynth RPi image (2016-11-10)](https://www.dropbox.com/s/7ihleex7of3hqfx/2016-11-10-prynth.img?dl=1){: download .btn .btn--warning}
+[Download Prynth RPi image (2016-11-10)](https://www.dropbox.com/s/vu9l2542vjgrqx5/2016-11-10-prynth.img.zip?dl=1){: download .btn .btn--warning}
 
 ---
 
