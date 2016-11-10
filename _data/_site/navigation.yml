@@ -1,0 +1,7 @@
+# main links links
+main:
+  - title: "About"
+    url: /about.html
+
+  - title: "Downloads"
+    url: /downloads.html

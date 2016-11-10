@@ -1,0 +1,351 @@
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+
+<meta charset="utf-8">
+
+
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Prynth</title>
+
+
+
+
+
+
+
+<meta property="og:locale" content="en">
+<meta property="og:site_name" content="Prynth">
+<meta property="og:title" content="Prynth">
+
+
+  <link rel="canonical" href="http://localhost:4000/create/documentation/editor-intro.html">
+  <meta property="og:url" content="http://localhost:4000/create/documentation/editor-intro.html">
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Ivan Franco",
+      "url" : "http://localhost:4000",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Prynth Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item">
+            <img alt="Prynth Logo" style="height:50px;" src="http://localhost:4000/images/logos/prynth_logo_png_large.png" >
+          </li>
+          <li class="masthead__menu-item masthead__menu-item--lg">
+            <a style="color: #be5e00" href="http://localhost:4000/">Prynth</a>
+          </li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/about.html">About</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/news.html">News</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/instruments/index.html">Instruments</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/create/create.html">Create</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://groups.google.com/forum/#!forum/prynth">Community</a></li>
+          
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    
+
+
+
+
+
+<div id="main" role="main">
+  
+
+
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+    
+    
+      
+
+
+<nav class="nav__list">
+  
+  <ul>
+    
+      <li>
+        
+          
+          
+
+          <a href="http://localhost:4000/create/create.html"><span class="nav__sub-title">Create</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/create/framework.html" class="">Framework</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/create/downloads.html" class="">Downloads</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/create/documentation/" class="">Documentation</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+    
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        <h1 id="introduction-to-the-prynth-code-editor">Introduction to the Prynth code editor</h1>
+
+<p>In this guide you’ll find instructions on how to get started with the SuperCollider editor that runs automatically on the Prynth distribution. With the editor you’ll be able to not only create new synthesis and mapping programs, but also manage files, consult system stats and execute different operations like launching help files or rebooting the instruments.</p>
+
+<hr />
+
+<h1 id="accessing-the-editor">Accessing the editor</h1>
+
+<p>As long as your instrument is connected to the same network as your computer, tablet or pc you’ll be able to access the code editor by visiting the following address:</p>
+
+<p><a href="http://raspberrypi.local:3000">http://raspberrypi.local:3000</a></p>
+
+<p>This should return you a webpage that should look like this:</p>
+
+<p><a href="../../images/editor.png"><img src="../../images/editor.png" alt="editor_layout" /></a></p>
+
+<p>The easiest way to initially connect your instrument to the network is to do it physically via Ethernet cable. Only then will you be able to set your WIFI credentials to have the instrument log to your network wirelessly and every time it’s booted.</p>
+
+<hr />
+
+<h1 id="overview">Overview</h1>
+
+<p>All of the current functions of the editor are somehow self-explanatory. The left is occupied mainly by the textual code editor, several buttons for functions like “run”, “kill”, “save” and “help” and down at the bottom sits a debug window, which will output SuperCollider log messages for feedback.</p>
+
+<p><a href="../../images/documentation/editor_detail_1.png"><img src="../../images/documentation/editor_detail_1.png" alt="editor_detail_1" /></a></p>
+
+<p><a href="../../images/documentation/editor_detail_2.png"><img src="../../images/documentation/editor_detail_2.png" alt="editor_detail_2" /></a></p>
+
+<p>On the right you’ll find several system functions and informative panels. The first is a status report with a uptime clock, current hostname, connected IPs and system load.</p>
+
+<p><a href="../../images/documentation/editor_detail_3.png"><img src="../../images/documentation/editor_detail_3.png" alt="editor_detail_3" class="align-center" /></a></p>
+
+<p>Down to this is a preset panel, in which you can manage your programs and finally a similar file manager but for sound samples.</p>
+
+<p><a href="../../images/documentation/editor_detail_4.png"><img src="../../images/documentation/editor_detail_4.png" alt="editor_detail_4" /></a> <a href="../../images/documentation/editor_detail_5.png"><img src="../../images/documentation/editor_detail_5.png" alt="editor_detail_5" /></a></p>
+
+<h1 id="editor-features">Editor features</h1>
+
+<p>Although this is not a full SuperCollider IDE, it contains features such as code highlighting, code block matching and line numbering and you can write full SuperCollider programs with no specific restrictions.</p>
+
+<p>The most notable difference is that SuperCollider can execute new instructions in a just-in-time fashion, a relevant functionality that is still currently unavailable in the Prynth editor. Instead, every time you push “Run”, the SuperCollider application with fully restart, executing your more recently written program. We are still looking into ways of injecting the code at runtime, which should be theoretically achievable.</p>
+
+<p>Another important detail is that the patch manager works mostly as a preset manager. This means that when you hit “run” or “save” on editor buttons you are referring to the program written on the editor window. If you want to manage “screenshots” of programs you should use the appropriate buttons on the patch manager to the right side. The two systems are intentionally kept separate for operational and security reasons, with web processes isolated from the main synthesis process. After running or saving a new program on the editor, this same program will automatically load and run the next time you turn on your system.</p>
+
+<p>The Sample section allows you to upload new sounds to be used in your patches. The samples are numbered, so that you can access them easily inside SuperCollider. For more information on this please consult <a href="first-program.html">writing our first SuperCollider program</a>. The samples also have a small play button to their right, so you can preview the sounds directly on the browser. To upload new files click “Choose file”, followed by “Upload”. Once the upload is done the file should appear listed.</p>
+
+<p>There are still several planned improvements but the current iteration already represents the minimal functionalities needed to setup an instrument. Stay tuned for the upcoming versions which will implement new features.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+
+
+        
+      </footer>
+
+      
+
+      
+
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        
+
+
+
+
+<div class="page__footer-follow">
+
+  <ul class="social-icons">
+
+    <!-- <img alt="Prynth Logo" style="height:50px;" src="images/logos/prynth_logo_svg.svg" > -->
+
+    <!-- 
+      <li><strong>Follow:</strong></li>
+     -->
+
+
+    
+    
+      <li><a href="https://facebook.com/861367657331823"><i class="fa fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+    
+    
+    
+    <li><a href="http://localhost:4000/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">
+
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a> This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons License</a>.</div>
+</div>
+
+      </footer>
+    </div>
+
+    <script src="http://localhost:4000/assets/js/main.min.js"></script>
+
+
+
+
+
+  </body>
+</html>
