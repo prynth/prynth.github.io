@@ -8,7 +8,7 @@ permalink: /about.html
 
 <br>
 
-![knobs2](images/instruments/mitt/mitt_composition.png)
+![knobs2](images/instruments/mitt/mitt_composition_small.png)
 
 ---
 
