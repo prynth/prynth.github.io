@@ -22,7 +22,7 @@ We have also created a Linux distribution for the Raspberry Pi, based on the off
 
 Download the image file and head to the documentation for [installation details](../documentation/install-rpi-image.html).
 
-[Download Prynth RPi image (2016-11-10)](https://www.dropbox.com/s/vu9l2542vjgrqx5/2016-11-10-prynth.img.zip?dl=1){: download .btn .btn--warning}
+[Download Prynth RPi image (2016-11-10)](https://www.dropbox.com/s/4oydarjeqh2m27f/2016-11-10-prynth.img.zip?dl=1){: download .btn .btn--warning}
 
 ---
 
