@@ -3,12 +3,12 @@ layout: splash
 permalink: /about.html
 
 ---
-### Our goal is to explore models for self-contained programmable synthesizers that gather attributes from both synths and computers.
+### Our goal is to explore models for self-contained programmable synthesizers, gathering attributes from both hardware synths and computer-based systems.
 
 
 <br>
 
-![knobs2](images/instruments/mitt/mitt_composition_small.png)
+![Mitt composition](images/instruments/mitt/mitt_composition_small.png)
 
 ---
 
@@ -16,11 +16,11 @@ Why?
 ====
 Electronic music is usually created using hardware synthesizers, computer software or a mix of both.
 
-The computer offers immense power and flexibility in digital music instruments. It can do complex sound synthesis, integrate algorithmic processes or even be played with different physical controllers.
+The computer offers immense power and flexibility in digital music instruments. It can do complex sound synthesis, integrate algorithmic processes or even be played with radically different physical controllers.
 
-Hardware synthesizers are dedicated devices, containing important instrumental qualities that promote a focus on the embodied cognitive activity of music performance. They are also generally better concerning longevity, reliability and most importantly learnability.
+In turn hardware synthesizers are devices dedicated to music making, containing important instrumental qualities that promote a focus on the embodied cognitive activity of performance. They are also generally better concerning longevity, reliability and most importantly learnability.
 
-**We think there is an opportunity to explore new hybrid designs in synthesizers**. Many previous hardware devices have include some form of reconfigurability but not many have embraced computation strongly or deeply explored the concept of a highly programmable synthesizer. This project's goal is to offer freely accessible technologies to build such instruments. While electronics and programming might initially seem like a high-entry barrier, offering a stable platform, with assembly instructions and working code snippets, is a way to incite learning and rapid results for both beginners and experts.
+**We think there is an opportunity to explore new hybrid designs in synthesizers**. Many previous hardware devices have included some form of reconfigurability but not many have embraced computation strongly or deeply explored the concept of a highly programmable synthesizer. The goal of this project is to offer freely accessible technologies to build such instruments. While electronics and programming might initially seem like a high-entry barrier, offering a stable platform, with collections of assembly instructions and working code snippets, is a way to incite learning and rapid results for both beginners and experts.
 
 How?
 ====
