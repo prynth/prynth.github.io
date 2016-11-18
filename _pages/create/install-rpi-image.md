@@ -76,4 +76,4 @@ We've also kept the default RPi username, password and hostname. To access the P
 
 1. Make sure your RPi is connected to your network.
 
-2. Open your browser at [http://raspberry.local:4000](http://raspberry.local:4000) and the SuperCollider editor should be loaded without any further intervention.
+2. Open your browser at [http://raspberrypi.local:4000](http://raspberrypi.local:4000) and the SuperCollider editor should be loaded without any further intervention.
