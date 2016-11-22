@@ -43,9 +43,9 @@ For the typical application your bill of materials should be something like:
 - Raspberry Pi (2 or 3) ([adafruit](https://www.adafruit.com/products/3055), [sparkfun](https://www.sparkfun.com/products/13825))
 - Teensy (3.1 or 3.2) ([adafruit](https://www.adafruit.com/products/2756), [sparkfun](https://www.sparkfun.com/products/13736))
 - Class-compliant USB 2.0 audio card ([adafruit](https://www.adafruit.com/products/1475))
-- Prynth electronics boards (to downloads)
+- Prynth electronics boards ([downloads](/create/downloads.html))
 - 4051 8-channel analog multiplexers ([arduino](http://playground.arduino.cc/Learning/4051))
-- Micro SD Card (at least 4 Gb, class 10 prefered ) ([adafruit](https://www.adafruit.com/products/1294), [sparkfun](https://www.sparkfun.com/products/13833))
+- Micro SD Card (at least 4 Gb, class 10 preferred) ([adafruit](https://www.adafruit.com/products/1294), [sparkfun](https://www.sparkfun.com/products/13833))
 - 2 x 20 female GPIO header ([adafruit](https://www.adafruit.com/products/2222))
 - Male and female headers 0.1''
 - Female jumper wire ([adafruit](https://www.adafruit.com/products/266))
