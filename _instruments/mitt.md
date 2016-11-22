@@ -46,6 +46,6 @@ In turn the potentiometers control grain density, pitch and gain. Interesting pe
 
 # Video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sZBie8w8AjI" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Oj7HfcdJhi8" frameborder="0" allowfullscreen></iframe>
 
 <!-- # Sounds -->
