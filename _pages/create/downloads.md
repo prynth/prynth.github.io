@@ -28,6 +28,6 @@ Download the image file and head to the documentation for [installation details]
 
 # Teensy source code
 
-Download the Teensy source file program. In the documentation you'll find more instructions on installing the Teensyduino library and [uploading the firmware](../documentation/teensy-upload.html) to the Teensy.
+Download the Teensy source file program. In the documentation you'll find more instructions on installing the Teensyduino library and [uploading the firmware](../documentation/teensy-firmware.html) to the Teensy.
 
 [Download Teensy source code](https://github.com/prynth/prynth/blob/master/teensy/piteensymux.zip?raw=true){: .btn .btn--warning}
