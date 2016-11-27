@@ -16,7 +16,7 @@ To proceeed make sure you've completed the steps described on the [Pi Muxi Contr
 # Requirements:
 
 | . PC or MAC with a USB connection | [![sd_card_slot](../../images/documentation/usb_slot.jpg){:width="40%" }](../../images/documentation/usb_slot.jpg) |
-| . Teensy firmware program. | [download](#link) |
+| . Teensy firmware program. | [download](https://github.com/prynth/prynth/blob/master/teensy/piteensymux.zip?raw=true) |
 | . Micro-B USB to USB cable | [![micro_sd_card](../../images/documentation/micro_usb_plug.jpg){:width="40%" }](../../images/documentation/micro_usb_plug.jpg) |
 
 ---
