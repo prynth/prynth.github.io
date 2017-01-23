@@ -15,7 +15,7 @@ sidebar:
 
 [Intro to Code Editor](editor-intro.html)
 
-[Writing our first SuperCollider program](first-program.html)
+[Writing your first SuperCollider program](first-program.html)
 
 # Linux Customization
 
