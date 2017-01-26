@@ -5,6 +5,11 @@ sidebar:
   nav: "create"
 ---
 
+<style>
+table, tr, td, th {border: 0px;font-size: 1em;}
+</style>
+
+
 # Prynth Electronics Boards
 
 The Prynth electronics boards are distributed as [Eagle](https://cadsoft.io/) files.
