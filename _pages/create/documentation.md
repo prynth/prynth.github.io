@@ -4,6 +4,7 @@ permalink: create/documentation/
 sidebar:
   nav: "create"
 ---
+<!-- ghost -->
 
 # Getting Started
 
