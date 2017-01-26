@@ -9,7 +9,6 @@ sidebar:
 table, tr, td, th {border: 0px;font-size: 1em;}
 </style>
 
-
 # Framework
 
 [![One sensor](../images/prynth_system_one_sensor.jpg){:width="50%" .align-right}](../images/prynth_system_one_sensor.jpg) The Prynth framework uses the Raspberry Pi (RPi) for sound synthesis and the Teensy microcontroller for sensor signal acquisition. The Teensy communicates with the RPi through an add-on board, which in turn connects to up to 10 multiplexer boards for a total 80 sensor connections (analog resistors or switches).

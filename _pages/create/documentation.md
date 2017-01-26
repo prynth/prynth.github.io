@@ -4,7 +4,10 @@ permalink: create/documentation/
 sidebar:
   nav: "create"
 ---
-<!-- ghost -->
+
+<style>
+table, tr, td, th {border: 0px;font-size: 1em;}
+</style>
 
 # Getting Started
 
