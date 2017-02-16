@@ -43,7 +43,7 @@ For the typical application your bill of materials should be something like:
 - Teensy (3.1 or 3.2) ([adafruit](https://www.adafruit.com/products/2756), [sparkfun](https://www.sparkfun.com/products/13736))
 - Class-compliant USB 2.0 audio card ([adafruit](https://www.adafruit.com/products/1475))
 - Prynth electronics boards ([downloads](/create/downloads.html))
-- 8-channel analog multiplexers compatible with the 4051 pin scheme (up to 8 units, depending on the required number of analog input channels). Tested with the Max4617CPE. ([arduino](http://playground.arduino.cc/Learning/4051))
+- 8-channel analog multiplexers compatible with the 4051 pin scheme (up to 8 units, depending on the required number of analog input channels). Tested with the [Max4617CPE](http://datasheets.maximintegrated.com/en/ds/MAX4617-MAX4619.pdf). ([arduino](http://playground.arduino.cc/Learning/4051))
 - Micro SD Card (at least 4 Gb, class 10 preferred) ([adafruit](https://www.adafruit.com/products/1294), [sparkfun](https://www.sparkfun.com/products/13833))
 - 2 x 20 female GPIO header ([adafruit](https://www.adafruit.com/products/2222))
 - Male and female headers 0.1''
