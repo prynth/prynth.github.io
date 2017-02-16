@@ -18,7 +18,7 @@ In this guide you'll find instructions on how to setup your PCB boards. These al
 | . MuxiControl PCB                     | [![pimuxicontrol](../../images/documentation/pimuxicontrol_1.png){:width="40%" }](../../images/documentation/pimuxicontrol_1.png) |
 | . Muxi PCBs                           | [![muxi](../../images/documentation/muxi_1.png){:width="40%" }](../../images/documentation/muxi_1.png) |
 | . Teensy microcontroller (3.1 or 3.2) | [![teensy](../../images/documentation/teensy_1.png){:width="40%" }](../../images/documentation/teensy_1.png) |
-| . 4051 8-channel analog multiplexer   | [![4051](../../images/documentation/4051_1.png){:width="40%" }](../../images/documentation/4051_1.png) |
+| . 4051-compatible 8-channel analog multiplexer   | [![4051](../../images/documentation/4051_1.png){:width="40%" }](../../images/documentation/4051_1.png) |
 | . Male and female headers             | [![headers](../../images/documentation/headers_1.png){:width="40%" }](../../images/documentation/headers_1.png) |
 
 ---
@@ -36,7 +36,7 @@ The male pins insert from the bottom of the board, so that the holes are facing 
 4. Finally solder the male pins to your teensy microcontroller and insert it in the board slot. In the look like the following.
 ![muxi_control_assembled](../../images/documentation/muxi_control_assembled.jpg)
 
-5. Next take your Muxi PCB and your 4051 multiplexer.
+5. Next take your Muxi PCB and your 8-channel multiplexer.
 ![muxi_2](../../images/documentation/muxi_2.jpg)
 ![4051_2](../../images/documentation/4051_2.jpg)
 
