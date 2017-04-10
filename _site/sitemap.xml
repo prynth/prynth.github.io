@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>https://prynth.github.io/enterface17-call/</loc>
+<lastmod>2017-03-27T00:00:00-04:00</lastmod>
+</url>
+<url>
 <loc>https://prynth.github.io/pcb-giveway-results/</loc>
 <lastmod>2017-01-25T00:00:00-05:00</lastmod>
 </url>
@@ -19,6 +23,9 @@
 <loc>https://prynth.github.io/create/documentation/board-assembly.html</loc>
 </url>
 <url>
+<loc>https://prynth.github.io/create/documentation/change-hostname.html</loc>
+</url>
+<url>
 <loc>https://prynth.github.io/community.html</loc>
 </url>
 <url>
@@ -32,6 +39,9 @@
 </url>
 <url>
 <loc>https://prynth.github.io/create/documentation/editor-intro.html</loc>
+</url>
+<url>
+<loc>https://prynth.github.io/create/documentation/expand-sdcard.html</loc>
 </url>
 <url>
 <loc>https://prynth.github.io/create/documentation/first-program.html</loc>
@@ -53,6 +63,12 @@
 </url>
 <url>
 <loc>https://prynth.github.io/news.html</loc>
+</url>
+<url>
+<loc>https://prynth.github.io/create/documentation/setup-wireless-network.html</loc>
+</url>
+<url>
+<loc>https://prynth.github.io/create/documentation/ssh-intro.html</loc>
 </url>
 <url>
 <loc>https://prynth.github.io/create/documentation/teensy-firmware.html</loc>

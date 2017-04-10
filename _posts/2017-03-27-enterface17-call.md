@@ -4,9 +4,7 @@ title: "Enterface 17 Call"
 author_name: "Ivan Franco"
 author_profile: true
 ---
-Looking forward to summertime building synths in sunny Portugal?
-
-I am pleased to announce a Prynth workshop as part of Enterface 17 (the 13th International Summer Workshop on Multimodal Interfaces), which will happen during the first two weeks of July in Porto (Portugal).
+Looking forward to summertime building synths in sunny Portugal? I am pleased to announce a Prynth workshop as part of Enterface 17 (the 13th International Summer Workshop on Multimodal Interfaces), which will happen during the first two weeks of July in Porto (Portugal).
 
 While there are several other Prynth workshops in the planning, this one won’t be dedicated solely to DIY. We will definitely build our own synths but we plan on also creating a knowledge sharing group to discuss theories on interfaces between musician and performance device.
 

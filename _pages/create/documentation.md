@@ -23,10 +23,12 @@ table, tr, td, th {border: 0px;font-size: 1em;}
 
 # Linux Customization
 
-[Expanding the SD card] (soon)
+[Opening a SSH session](ssh-intro.html)
 
-[Changing the hostname] (soon)
+[Expanding the SD card](expand-sdcard.html)
 
-[Connecting to a wireless network] (soon)
+[Changing the hostname](change-hostname.html)
+
+[Connecting to a wireless network](setup-wireless-network.html)
 
 [ALSA and Jack] (soon)
