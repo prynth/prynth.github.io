@@ -1,1 +1,1 @@
-# SCDMI
+# Prynth
