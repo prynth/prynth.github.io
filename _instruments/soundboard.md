@@ -40,7 +40,8 @@ gallery:
 
 ![soundboard2](../../images/instruments/soundboard/soundboard2.jpg){:width="30%" .align-left}Participants described the board as having a 'futuristic' feel, where the overall theme and for the sound and visuals was inspired by science fiction movies like Star Wars and Close Encounters of the Third Kind. This was mostly done using FM Synthesis and programmable RGB LEDs. Custom boards for the muxi and the muxi-controller were designed to fit the constraints of the project, where the individual muxi modules plug into the main controller like RAM into a motherboard.
 
-Developed by Tim Kong, Karen Cancino & Marc St. Pierre
+Developed by Tim Kong, Karen Cancino, Alanna Ho & Marc St. Pierre
+[http://makercube.ca/](http://makercube.ca/)
 {: .text-right}
 
 # Gallery
