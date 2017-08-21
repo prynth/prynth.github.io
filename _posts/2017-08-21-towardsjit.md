@@ -1,0 +1,12 @@
+---
+layout: single
+title: "Towards JIT in Prynth"
+author_name: "Ivan Franco"
+author_profile: true
+---
+
+One of the greatest strengths of SuperCollider is its ability to perform just-in-time compiling, where it's possible to inject new code while the main program keeps running. This makes SuperCollider an excellent language for interactive coding, because it is possible to try new ideas and perform them instantly, without any interruption of audio or logic process.
+
+In the previous version of Prynth this feature wasn't present, because the web-based code editor would send a full chunk of code to the Raspberry Pi and tell it to re-initialize SuperCollider running that code. This is about to change with version 0.4, which integrates the excellent Node.js library developed by Crucial Felix.
+
+In the new version you'll be able to simultaneously code and play your Prynth instrument. There are also substantial improvements in file management and system settings. Stay tuned for the beta version coming pretty soon.
