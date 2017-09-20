@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>https://prynth.github.io/v04-beta/</loc>
+<lastmod>2017-09-20T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>https://prynth.github.io/towardsjit/</loc>
+<lastmod>2017-08-21T00:00:00-04:00</lastmod>
+</url>
+<url>
 <loc>https://prynth.github.io/soundboard/</loc>
 <lastmod>2017-05-10T00:00:00-04:00</lastmod>
 </url>

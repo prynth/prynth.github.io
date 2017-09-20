@@ -28,6 +28,9 @@ Download the image file and head to the documentation for [installation details]
 
 [Download Prynth RPi image (2016-11-10)](https://mt.music.mcgill.ca/~idmilrepo/prynth/2016-11-10-prynth.img.zip){: download .btn .btn--warning}
 
+[Download Prynth RPi image (2017-09-13 v. 0.4 Beta)](https://mt.music.mcgill.ca/~idmilrepo/prynth/2017-09-13-prynth.img.zip){: download .btn .btn--warning} <mark>NEW!</mark>
+
+
 ---
 
 # Teensy source code
