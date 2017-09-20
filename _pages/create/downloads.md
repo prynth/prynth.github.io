@@ -26,9 +26,9 @@ We have also created a Linux distribution for the Raspberry Pi, based on the off
 
 Download the image file and head to the documentation for [installation details](documentation/install-rpi-image.html).
 
-[Download Prynth RPi image (2016-11-10)](https://mt.music.mcgill.ca/~idmilrepo/prynth/2016-11-10-prynth.img.zip){: download .btn .btn--warning}
+[Download Prynth RPi image (2016-11-10)](http://idmil.org/pub/software/prynth/2016-11-10-prynth.img.zip){: download .btn .btn--warning}
 
-[Download Prynth RPi image (2017-09-13 v. 0.4 Beta)](https://mt.music.mcgill.ca/~idmilrepo/prynth/2017-09-13-prynth.img.zip){: download .btn .btn--warning} <mark>NEW!</mark>
+[Download Prynth RPi image (2017-09-13 v. 0.4 Beta)](http://idmil.org/pub/software/prynth/2017-09-13-prynth.img.zip){: download .btn .btn--warning} <mark>NEW!</mark>
 
 
 ---
