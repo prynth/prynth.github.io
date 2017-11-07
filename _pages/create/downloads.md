@@ -28,7 +28,7 @@ Download the image file and head to the documentation for [installation details]
 
 [Download Prynth RPi image (2016-11-10)](http://idmil.org/pub/software/prynth/2016-11-10-prynth.img.zip){: download .btn .btn--warning}
 
-[Download Prynth RPi image (2017-09-21 v. 0.4 Beta)](http://idmil.org/pub/software/prynth/2017-09-21-prynth.img.zip){: download .btn .btn--warning} <mark>NEW!</mark>
+[Download Prynth RPi image (2017-09-21 v. 0.4 Beta)](http://idmil.org/pub/software/prynth/2017-09-21-prynth.img.zip){: download .btn .btn--warning} <mark>NEW!</mark> [(but what's different?)](https://prynth.github.io/v04-beta/)
 
 
 ---
