@@ -1,7 +1,7 @@
 <!DOCTYPE html>
   <html>
     <head>
-      <title>Prynth Documentation v05</title>
+      <title>Prynth v05 Documentation</title>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -216,7 +216,20 @@ code.language-yaml {
       <div class="mume markdown-preview   ">
       <h1 class="mume-header" id="prynth-documentation-version-05">PRYNTH DOCUMENTATION <em>(version 0.5)</em></h1>
 
-<h1 class="mume-header" id="assembling-the-pcbs">Assembling the PCBs</h1>
+<a href="#assembling-the-pcbs">Assembling the PCBs</a><br>
+<a href="#uploading-the-teensy-firmware">Uploading the Teensy firmware</a><br>
+<a href="#installing-the-raspberry-pi-image">Installing the Raspberry Pi Image</a><br>
+<a href="#audio">Audio</a><br>
+<a href="#starting-prynth-for-the-first-time">Starting Prynth for the First Time</a><br>
+<a href="#prynth-software">Prynth Software</a><br>
+<a href="#sensors">Sensors</a><br>
+<a href="#system-settings">System Settings</a><br>
+<a href="#linux-tips">Linux Tips</a><br>
+<a href="#known-issues">Known Issues</a><br>
+
+
+
+<h1 class="mume-header" id="assembling-the-pcbs">Assembling the PCBs</h1><a name="assembling-the-pcbs"></a>
 
 <p>This guide contains instructions on how to assemble the Prynth printed-circuit boards. They allow for the direct connection of sensors, like knobs, sliders and buttons, that can be used to create the instrument's physical interface.</p>
 <p>The first step is to download the printed-circuit boards designs, distributed as <a href="../downloads/">Eagle and Gerber files</a>. These files can be sent to an online PCB service for manufacturing. Each manufacturer has a particular set of specifications and rules for the design of PCBs. The Prynth boards have been designed conforming to the <a href="http://dirtypcbs.com/">Dirty PCBs</a> rules, with a 6 mil minimum tracing, which is common to many of these services.</p>
@@ -431,7 +444,7 @@ Using a 6 pin female header cable, connect the Muxi Daughterboard to Prynth Cont
 <a href="images/muxicontrol_muxi_connection.jpg"><img src="images/muxicontrol_muxi_connection.jpg" alt="Muxi_Assembly"></a></li>
 </ol>
 <hr>
-<h1 class="mume-header" id="uploading-the-teensy-firmware">Uploading the Teensy Firmware</h1>
+<h1 class="mume-header" id="uploading-the-teensy-firmware">Uploading the Teensy Firmware</h1><a name="uploading-the-teensy-firmware"></a>
 
 <p>This guide will describe how to upload the Prynth program for the Teensy.<br>
 To proceed make sure to complete the steps described on the Muxi Control board assembly.</p>
@@ -487,7 +500,7 @@ To proceed make sure to complete the steps described on the Muxi Control board a
 <a href="images/teensy_sw_5.png"><img src="images/teensy_sw_5.png" alt="teensyduino_upload"></a></li>
 </ol>
 <hr>
-<h1 class="mume-header" id="installing-the-raspberry-pi-image">Installing the Raspberry Pi Image</h1>
+<h1 class="mume-header" id="installing-the-raspberry-pi-image">Installing the Raspberry Pi Image</h1><a name="installing-the-raspberry-pi-image"></a>
 
 <p>This guide contains instructions on how to setup Prynth's Raspberry Pi image. This image is based on the official Raspbian distribution, but with the addition of all Prynth services (including SuperCollider and the Prynth server) and a few other tweaks.</p>
 <p>The process is the same as installing the official Raspberry Pi image. Several methods and softwares can be used and many derivatives can be found on the Internet. To keep the process as simple as possible, we've based these guides on the software officially recommended in the Raspberry Pi documentation.</p>
@@ -548,7 +561,7 @@ To proceed make sure to complete the steps described on the Muxi Control board a
 . The Prynth image is as close as possible to the original Raspbian distribution, in order to take advantage of the many RPi manuals and how-to's found on the Internet.</li>
 </ol>
 <hr>
-<h1 class="mume-header" id="audio">Audio</h1>
+<h1 class="mume-header" id="audio">Audio</h1><a name="audio"></a>
 
 <p>Prynth can use any audio device that works in ALSA. This includes the USB-compliant audio cards, Raspberry Pi I2S cards and the Pi's analog output.</p>
 <h2 class="mume-header" id="usb">USB</h2>
@@ -563,7 +576,7 @@ There is a known problem with the Raspberry Pi's USB controller that can cause a
 <h2 class="mume-header" id="pi-analog-output">Pi Analog Output</h2>
 
 <p>The Pi's analog audio output does not use a codec. It is created through PWM modulation that is then lowpass filtered. Therefore it is not recommended for applications that require good audio quality and low latencies.</p>
-<h1 class="mume-header" id="starting-prynth-for-the-first-time">Starting Prynth for the First Time</h1>
+<h1 class="mume-header" id="starting-prynth-for-the-first-time">Starting Prynth for the First Time</h1><a name="starting-prynth-for-the-first-time"></a>
 
 <ol>
 <li>Make sure the RPi is connected to your local network via Ethernet cable.<br>
@@ -579,7 +592,7 @@ There is a known problem with the Raspberry Pi's USB controller that can cause a
 <a href="images/prynth_frontend.png"><img src="images/prynth_frontend.png" alt="Frontend"></a></li>
 </ol>
 <hr>
-<h1 class="mume-header" id="prynth-software">Prynth Software</h1>
+<h1 class="mume-header" id="prynth-software">Prynth Software</h1><a name="prynth-software"></a>
 
 <p>This guide contains instructions on how to get started with the Prynth software. With it you'll be able to not only create new SuperCollider programs, but also manage files and manipulate many of the system's settings.</p>
 <p>To create a new program for your Prynth instrument you will need a computer, tablet or smartphone with a web browser. As long as they are both on the same network Prynth's software should be accessible by visiting the following address:</p>
@@ -605,7 +618,7 @@ There is a known problem with the Raspberry Pi's USB controller that can cause a
 . <a href="http://new-supercollider-mailing-lists-forums-use-these.2681727.n2.nabble.com/">SuperCollider Mailing List</a><br>
 . <a href="http://supercolliderbook.net/">SuperCollider book</a></p>
 <hr>
-<h1 class="mume-header" id="sensors">Sensors</h1>
+<h1 class="mume-header" id="sensors">Sensors</h1><a name="sensors"></a>
 
 <p>Many different types of sensors can be used to create a physical interface for the instrument. In this guide we show some examples of sensor connections, their configuration and how to use them in SuperCollider.</p>
 <h2 class="mume-header" id="connecting-sensors">Connecting Sensors</h2>
@@ -713,7 +726,7 @@ Mapping of the sensor 0 of multiplexer 0 to the oscillator frequency</p>
 <p>Address = (multiplexer number &amp; sensor number) + 100</p>
 <p>The address number 134 would correspond to the fourth multiplexer and the fifth sensor:<br>
 134 = (3 &amp; 4) + 100</p>
-<h1 class="mume-header" id="system-settings">System Settings</h1>
+<h1 class="mume-header" id="system-settings">System Settings</h1><a name="system-setting"></a>
 
 <p>The &quot;System&quot; settings panel contains several options to configure the system. It can be accessed from Prynth's main page, which will open a new browser tab.</p>
 <p><a href="images/system_settings_button.png"><img src="images/system_settings_button.png" alt="System Settings"></a></p>
@@ -754,7 +767,7 @@ Mapping of the sensor 0 of multiplexer 0 to the oscillator frequency</p>
 <h2 class="mume-header" id="force-usb-11">Force USB 1.1</h2>
 
 <p>Checking this option will force the Raspberry Pi's USB controller to use a maximum speed according to the USB 1.x specification. This option might be necessary if using USB 1.x speed devices. For more information check the &quot;Audio&quot; section of this manual.</p>
-<h1 class="mume-header" id="linux-tips">Linux Tips</h1>
+<h1 class="mume-header" id="linux-tips">Linux Tips</h1><a name="linux-tips"></a>
 
 <p>Here we offer some tips on Linux operations that may be useful in Prynth.</p>
 <h2 class="mume-header" id="ssh-session">SSH Session</h2>
@@ -815,7 +828,7 @@ Now use the arrow keys to select your audio card and Enter to confirm your selec
 <li>Raspi-config will offer to reboot the system to finish the process. Choose &quot;Yes&quot;.<br>
 <img src="images/raspi-config_6.png" alt="raspi-config1"></li>
 </ol>
-<h1 class="mume-header" id="prynth-v05-known-issues">Prynth v0.5 Known Issues</h1>
+<h1 class="mume-header" id="known-issues">Known Issues</h1><a name="known-issues"></a>
 
 <h2 class="mume-header" id="running-large-programs-via-shortcut-keys">Running Large Programs via Shortcut Keys</h2>
 
