@@ -198,7 +198,7 @@
             
             
 
-            <li><a href="http://127.0.0.1:4000/create/documentation/" class="">Documentation</a></li>
+            <li><a href="http://127.0.0.1:4000/documentation/documentation_v05.html" class="">Documentation</a></li>
           
         </ul>
         
@@ -232,21 +232,19 @@ table, tr, td, th {border: 0px;font-size: 1em;}
 
 <h1 id="framework">Framework</h1>
 
-<p><a href="../images/prynth_system_one_sensor.jpg"><img src="../images/prynth_system_one_sensor.jpg" alt="One sensor" width="50%" class="align-right" /></a> The Prynth framework uses the Raspberry Pi (RPi) for sound synthesis and the Teensy microcontroller for sensor signal acquisition. The Teensy communicates with the RPi through an add-on board, which in turn connects to up to 10 multiplexer boards for a total 80 sensor connections (analog resistors or switches).</p>
+<p><a href="../images/prynth_system_one_sensor.jpg"><img src="../images/framework_intro/prynth_system_one_sensor.jpg" alt="One sensor" width="50%" class="align-right" /></a> The Prynth framework uses the Raspberry Pi (RPi) for sound synthesis and the Teensy microcontroller for sensor signal acquisition. The Teensy communicates with the RPi through an add-on board, which in turn connects to up to 10 multiplexer boards for a total 80 analog sensor connections (pots, resistors or switches). It also includes connections for digital sensors through I2C and SPI buses.</p>
 
-<p><a href="../images/framework_diagram.png"><img src="../images/framework_diagram.png" alt="Framework" width="65%" class="align-left" /></a> With the Prynth framework, the RPi boots into a system that automatically runs a web service with a full code editor for the SuperCollider programing language. When powered the synthesizer will also automatically run the last edited program.</p>
+<p>With the Prynth framework, the RPi boots into a system that automatically runs a web service with a full code editor for the SuperCollider programing language. When powered the synthesizer will also automatically run a specified program.</p>
 
-<p>The editor also contains other handy features, such as file managers, real-time system report and a SuperCollider debug window.</p>
+<p><a href="../images/framework_diagram.png"><img src="../images/framework_intro/editor_simple_sine.png" alt="Framework" width="100%" class="align-left" /></a></p>
 
-<table>
-  <tbody>
-    <tr>
-      <td><a href="../images/editor.png"><img src="../images/editor.png" alt="Editor" width="500px" /></a></td>
-    </tr>
-  </tbody>
-</table>
+<p>Like the original SuperCollider for desktop and laptop computers, in Prynth it is possible to execute programs on-the-fly. Just-in-time compilation allows for dynamic editing, fine-tuning or complete repurpose of the synthesizers, without going through any compilation stage or processing interruption.</p>
 
-<p>Currently the system is prepared to be connected to any Class-Compliant USB 2.0 Audio Card, which should work out-of-the-box. We are also researching the design of our own audio expansion board.</p>
+<p>The Prynth editor also contains many more handy features, such as file managers, sensor configuration panels, real-time system report and a SuperCollider debug window.</p>
+
+<p><a href="../images/framework_intro/sensor_settings_action.png"><img src="../images/framework_intro/sensor_settings_action.png" alt="Sensor Settings" width="500px" /></a></p>
+
+<p>Prynth can use any audio device that works with the Raspberry Pi, including I2S cards and class-compliant USB 2.0 cards.</p>
 
 <hr />
 
@@ -256,7 +254,9 @@ table, tr, td, th {border: 0px;font-size: 1em;}
   <li>PCBs with mostly through-hole components (easy to manufacture and solder).</li>
   <li>Ready-to-use Linux distribution with minimal configuration necessary.</li>
   <li>Web-based code editor with debugger.</li>
+  <li>Just-in-time compiling.</li>
   <li>Patch and sample management.</li>
+  <li>Sensor configuration panel.</li>
   <li>System Status panel.</li>
 </ul>
 
@@ -267,17 +267,17 @@ table, tr, td, th {border: 0px;font-size: 1em;}
 <p>For the typical application your bill of materials should be something like:</p>
 
 <ul>
-  <li>Raspberry Pi (2 or 3) (<a href="https://www.adafruit.com/products/3055">adafruit</a>, <a href="https://www.sparkfun.com/products/13825">sparkfun</a>)</li>
-  <li>Teensy (3.1 or 3.2) (<a href="https://www.adafruit.com/products/2756">adafruit</a>, <a href="https://www.sparkfun.com/products/13736">sparkfun</a>)</li>
-  <li>Class-compliant USB 2.0 audio card (<a href="https://www.adafruit.com/products/1475">adafruit</a>)</li>
-  <li>Prynth electronics boards (<a href="/create/downloads.html">downloads</a>)</li>
-  <li>8-channel analog multiplexers compatible with the 4051 pin scheme (up to 8 units, depending on the required number of analog input channels). Tested with the <a href="http://datasheets.maximintegrated.com/en/ds/MAX4617-MAX4619.pdf">Max4617CPE</a>. (<a href="http://playground.arduino.cc/Learning/4051">arduino</a>)</li>
-  <li>Micro SD Card (at least 4 Gb, class 10 preferred) (<a href="https://www.adafruit.com/products/1294">adafruit</a>, <a href="https://www.sparkfun.com/products/13833">sparkfun</a>)</li>
-  <li>2 x 20 female GPIO header (<a href="https://www.adafruit.com/products/2222">adafruit</a>)</li>
-  <li>Male and female headers 0.1’’</li>
-  <li>Female jumper wire (<a href="https://www.adafruit.com/products/266">adafruit</a>)</li>
-  <li>Any analog sensor or switch (10K recommended for variable resistors)</li>
-  <li>Micro-USB power supply with 2.4 A</li>
+  <li>Raspberry Pi (2 or 3) (<a href="https://www.adafruit.com/products/3055">adafruit</a>, <a href="https://www.sparkfun.com/products/13825">sparkfun</a>).</li>
+  <li>Teensy (3.1 or 3.2) (<a href="https://www.adafruit.com/products/2756">adafruit</a>, <a href="https://www.sparkfun.com/products/13736">sparkfun</a>).</li>
+  <li>I2S audio card or class-compliant USB 2.0 audio card (<a href="https://www.adafruit.com/?q=audio%20card%20raspberry%20pi">adafruit</a>, <a href="http://www.audioinjector.net/">Audio Injector</a>, <a href="https://fe-pi.com/">Fe-Pi</a>).</li>
+  <li>Prynth electronics boards (<a href="/create/downloads.html">downloads</a>).</li>
+  <li>8-channel analog multiplexers compatible with the 4051 pin scheme (up to 8 units, depending on the required number of analog input channels). Tested with the <a href="http://datasheets.maximintegrated.com/en/ds/MAX4617-MAX4619.pdf">Max4617CPE</a>. (<a href="http://playground.arduino.cc/Learning/4051">arduino</a>).</li>
+  <li>Micro SD Card (at least 4 Gb, class 10 preferred) (<a href="https://www.adafruit.com/products/1294">adafruit</a>, <a href="https://www.sparkfun.com/products/13833">sparkfun</a>).</li>
+  <li>2 x 20 female GPIO header (<a href="https://www.adafruit.com/products/2222">adafruit</a>).</li>
+  <li>Male and female headers 0.1’’.</li>
+  <li>Female jumper wire (<a href="https://www.adafruit.com/products/266">adafruit</a>).</li>
+  <li>Any analog sensor or switch (10K recommended for variable resistors).</li>
+  <li>Micro-USB power supply with 2.4 A.</li>
 </ul>
 
         

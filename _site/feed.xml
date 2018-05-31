@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="http://127.0.0.1:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://127.0.0.1:4000/" rel="alternate" type="text/html" /><updated>2017-11-07T15:17:43-05:00</updated><id>http://127.0.0.1:4000/</id><title>Prynth</title><subtitle>Programmable Synthesizers</subtitle><author><name>Ivan Franco</name><email>ivan.almeida.franco@gmail.com</email><uri>https://ivanfranco.wordpress.com</uri></author><entry><title>RR</title><link href="http://127.0.0.1:4000/rr/" rel="alternate" type="text/html" title="RR" /><published>2017-10-04T00:00:00-04:00</published><updated>2017-10-04T00:00:00-04:00</updated><id>http://127.0.0.1:4000/rr</id><content type="html" xml:base="http://127.0.0.1:4000/rr/">&lt;p&gt;Created by Daniel Górny, we just received word from RR, a special take the crossover between the physical patching paradigm and digital synthesis with Prynth. &lt;a href=&quot;https://prynth.github.io/instruments/RR&quot;&gt;Check out RR&lt;/a&gt; on the instrument gallery.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="http://127.0.0.1:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://127.0.0.1:4000/" rel="alternate" type="text/html" /><updated>2018-05-31T09:55:19-04:00</updated><id>http://127.0.0.1:4000/</id><title>Prynth</title><subtitle>Programmable Synthesizers</subtitle><author><name>Ivan Franco</name><email>ivan.almeida.franco@gmail.com</email><uri>https://ivanfranco.wordpress.com</uri></author><entry><title>News</title><link href="http://127.0.0.1:4000/news/" rel="alternate" type="text/html" title="News" /><published>2018-01-30T00:00:00-05:00</published><updated>2018-01-30T00:00:00-05:00</updated><id>http://127.0.0.1:4000/news</id><content type="html" xml:base="http://127.0.0.1:4000/news/">&lt;p&gt;It’s been a while since there was news from Prynth, but although quiet we’ve continued hard at work in our evil machinations.&lt;/p&gt;
+
+&lt;p&gt;In September last year we launched an experimental beta 0.4 distro, that incorporated just-in-time compiling capabilities, so that SuperCollider programs could executed on-the-fly. Since then we talked to several Prynth users and found key areas were we could make it better, thus deciding to take our time to make a new major revision in both hardware and software.&lt;/p&gt;
+
+&lt;p&gt;We are currently planning on a March release and the expected goodies include:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Just-in-time compiling.&lt;/li&gt;
+  &lt;li&gt;Automatic execution of code blocks a la SuperCollider.&lt;/li&gt;
+  &lt;li&gt;Better management of Post window and errors.&lt;/li&gt;
+  &lt;li&gt;All new Muxi Control board, with I2C and SPI for digital devices.&lt;/li&gt;
+  &lt;li&gt;Full Serial RX/TX between SuperCollider and the Teensy.&lt;/li&gt;
+  &lt;li&gt;New sensor filtering implementation, based on the one euro filter by Casiez and team.&lt;/li&gt;
+  &lt;li&gt;Updated versions of Debian, SuperCollider and Node JS modules.&lt;/li&gt;
+  &lt;li&gt;Bug crushing.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We’d also like to take the opportunity to welcome Ajin Tom and Harish Venkatesan, who have joined the team to help in the development of this new release.&lt;/p&gt;
+
+&lt;p&gt;As always, if you have any suggestions, bug reports or instruments to show us, use the contacts on the webpage (prynth.github.io).&lt;/p&gt;
+
+&lt;p&gt;Stay tuned!&lt;/p&gt;</content><author><name>Ivan Franco</name><email>ivan.almeida.franco@gmail.com</email><uri>https://ivanfranco.wordpress.com</uri></author><summary>It’s been a while since there was news from Prynth, but although quiet we’ve continued hard at work in our evil machinations.</summary></entry><entry><title>RR</title><link href="http://127.0.0.1:4000/rr/" rel="alternate" type="text/html" title="RR" /><published>2017-10-04T00:00:00-04:00</published><updated>2017-10-04T00:00:00-04:00</updated><id>http://127.0.0.1:4000/rr</id><content type="html" xml:base="http://127.0.0.1:4000/rr/">&lt;p&gt;Created by Daniel Górny, we just received word from RR, a special take the crossover between the physical patching paradigm and digital synthesis with Prynth. &lt;a href=&quot;https://prynth.github.io/instruments/RR&quot;&gt;Check out RR&lt;/a&gt; on the instrument gallery.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://prynth.github.io/images/instruments/rr/rr1.jpg&quot; alt=&quot;RR&quot; /&gt;&lt;/p&gt;
 

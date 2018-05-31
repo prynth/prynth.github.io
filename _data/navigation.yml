@@ -26,7 +26,7 @@ create:
       - title: "Downloads"
         url: /create/downloads.html
       - title: "Documentation"
-        url: /create/documentation/
+        url: /documentation/documentation_v05.html
 
 about:
   - title: "About"

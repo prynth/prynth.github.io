@@ -9,26 +9,24 @@ sidebar:
 table, tr, td, th {border: 0px;font-size: 1em;}
 </style>
 
-# Getting Started
+# PRYNTH DOCUMENTATION *(version 0.5)*
 
-[Assembling the Prynth PCB boards](board-assembly.html)
+[Assembling the PCBs](assembling-the-pcbs.html)
 
-[Installing the Raspberry Pi image](install-rpi-image.html)
+[Uploading the Teensy Firmware](uploading-the-teensy-firmware.html)
 
-[Uploading the Teensy's firmware](teensy-firmware.html)
+[Installing the Raspberry Pi Image](installing-the-raspberry-pi-image.html)
 
-[Intro to Code Editor](editor-intro.html)
+[Audio](audio.html)
 
-[Writing your first SuperCollider program](first-program.html)
+[Starting Prynth for the First Time](starting-prynth-for-the-first-time.html)
 
-# Linux Customization
+[Prynth Software](prynth-software.html)
 
-[Opening a SSH session](ssh-intro.html)
+[Sensors](sensors.html)
 
-[Expanding the SD card](expand-sdcard.html)
+[System Settings](system-settings.html)
 
-[Changing the hostname](change-hostname.html)
+[Linux Tips](linux-tips.html)
 
-[Connecting to a wireless network](setup-wireless-network.html)
-
-[ALSA and Jack] (soon)
+[Known Issues](known-issues.html)
