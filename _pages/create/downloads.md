@@ -12,7 +12,7 @@ table, tr, td, th {border: 0px;font-size: 1em;}
 # Prynth Electronics Boards
 
 The Prynth electronics boards are distributed as [Eagle](https://cadsoft.io/) files.
-After downloading the files use a service like [OshPark](https://oshpark.com/), [DirtyPCBs](http://dirtypcbs.com/) or any other manufacturer that accepts low quantity on-line ordering. Many of these accept Eagle board files directly, so we suggest you use them, avoiding the complexity of handling Gerbers files (which are still included for reference). Also check the [documentation](../documentation/documentation_v05.html) section on instructions for the board assembly.
+After downloading the files use a service like [OshPark](https://oshpark.com/), [DirtyPCBs](http://dirtypcbs.com/) or any other manufacturer that accepts low quantity on-line ordering. Many of these accept Eagle board files directly, so we suggest you use them, avoiding the complexity of handling Gerbers files (which are still included for reference). Also check the [documentation](../doc) section on instructions for the board assembly.
 
 [Download  Control Eagle / Gerbers](https://github.com/prynth/prynth/blob/master/pcb/control/control.zip?raw=true){: .btn .btn--warning}
 
