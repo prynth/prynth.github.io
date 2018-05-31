@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="http://127.0.0.1:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://127.0.0.1:4000/" rel="alternate" type="text/html" /><updated>2018-05-31T09:55:19-04:00</updated><id>http://127.0.0.1:4000/</id><title>Prynth</title><subtitle>Programmable Synthesizers</subtitle><author><name>Ivan Franco</name><email>ivan.almeida.franco@gmail.com</email><uri>https://ivanfranco.wordpress.com</uri></author><entry><title>News</title><link href="http://127.0.0.1:4000/news/" rel="alternate" type="text/html" title="News" /><published>2018-01-30T00:00:00-05:00</published><updated>2018-01-30T00:00:00-05:00</updated><id>http://127.0.0.1:4000/news</id><content type="html" xml:base="http://127.0.0.1:4000/news/">&lt;p&gt;It’s been a while since there was news from Prynth, but although quiet we’ve continued hard at work in our evil machinations.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="http://127.0.0.1:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://127.0.0.1:4000/" rel="alternate" type="text/html" /><updated>2018-05-31T11:03:43-04:00</updated><id>http://127.0.0.1:4000/</id><title>Prynth</title><subtitle>Programmable Synthesizers</subtitle><author><name>Ivan Franco</name><email>ivan.almeida.franco@gmail.com</email><uri>https://ivanfranco.wordpress.com</uri></author><entry><title>Prynth version 0.5 released!</title><link href="http://127.0.0.1:4000/announcing-v05/" rel="alternate" type="text/html" title="Prynth version 0.5 released!" /><published>2018-06-01T00:00:00-04:00</published><updated>2018-06-01T00:00:00-04:00</updated><id>http://127.0.0.1:4000/announcing-v05</id><content type="html" xml:base="http://127.0.0.1:4000/announcing-v05/">&lt;p&gt;We are pleased to announce the launch of Prynth v0.5, with many new features and fixes and revised documentation.&lt;/p&gt;
+
+&lt;h3&gt;New features:&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Fully redesigned sensor acquisition system:&lt;/strong&gt;&lt;br /&gt;
+. Sampling rate control&lt;br /&gt;
+. Sensor masking.&lt;br /&gt;
+. Sensor data monitoring.&lt;br /&gt;
+. Customizable OSC addressing&lt;br /&gt;
+. High and low resolutions (1 byte or 4 bytes floats).&lt;br /&gt;
+. Data filtering on micro-controller per sensor, with choices of lowpass filter, 1€ filter and Schmitt trigger.&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Hardware:&lt;/strong&gt;&lt;br /&gt;
+. Fully redesigned PCBs.&lt;br /&gt;
+. Digital sensors over I2C and SPI.&lt;br /&gt;
+. Digital IO pins.&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;SuperCollider editor:&lt;/strong&gt;&lt;br /&gt;
+. Syntax colorizing&lt;br /&gt;
+. Execute code within parenthesis, a la SuperCollider.&lt;br /&gt;
+. Resizable post window.&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;As always, report any bugs in our forum and let us know about  your creations with Prynth.&lt;/p&gt;</content><author><name>Ivan Franco</name><email>ivan.almeida.franco@gmail.com</email><uri>https://ivanfranco.wordpress.com</uri></author><summary>We are pleased to announce the launch of Prynth v0.5, with many new features and fixes and revised documentation.</summary></entry><entry><title>News</title><link href="http://127.0.0.1:4000/news/" rel="alternate" type="text/html" title="News" /><published>2018-01-30T00:00:00-05:00</published><updated>2018-01-30T00:00:00-05:00</updated><id>http://127.0.0.1:4000/news</id><content type="html" xml:base="http://127.0.0.1:4000/news/">&lt;p&gt;It’s been a while since there was news from Prynth, but although quiet we’ve continued hard at work in our evil machinations.&lt;/p&gt;
 
 &lt;p&gt;In September last year we launched an experimental beta 0.4 distro, that incorporated just-in-time compiling capabilities, so that SuperCollider programs could executed on-the-fly. Since then we talked to several Prynth users and found key areas were we could make it better, thus deciding to take our time to make a new major revision in both hardware and software.&lt;/p&gt;
 
@@ -76,4 +98,4 @@ http://artes.ucp.pt/enterface17/&lt;/p&gt;
 
 &lt;p&gt;A lot of people also asked if it was possible to buy the instruments pre-assembled. Unfortunately there are currently no plans for commercialization. Our goal is to facilitate DIY, share knowledge and together come up with some neat synth designs.&lt;/p&gt;
 
-&lt;p&gt;For those afraid of picking up the soldering iron, we say: don’t be intimidated! We’ve all been there. And once your first thingy works, be sure you’ll have that “yay” moment!&lt;/p&gt;</content><author><name>Ivan Franco</name><email>ivan.almeida.franco@gmail.com</email><uri>https://ivanfranco.wordpress.com</uri></author><summary>Thank you all for the amazing enthusiasm from makers and media. Maybe we are off to something really good!</summary></entry><entry><title>Prynth lives!</title><link href="http://127.0.0.1:4000/scdmi-site-live/" rel="alternate" type="text/html" title="Prynth lives!" /><published>2016-09-20T00:00:00-04:00</published><updated>2016-09-20T00:00:00-04:00</updated><id>http://127.0.0.1:4000/scdmi-site-live</id><content type="html" xml:base="http://127.0.0.1:4000/scdmi-site-live/">&lt;p&gt;The Prynth site is now live. This is a work in progress so be patient with any missing information. I promise to try to keep it fresh and updated. To stay tuned there’s RSS or Facebook links located at the footer.&lt;/p&gt;</content><author><name>Ivan Franco</name><email>ivan.almeida.franco@gmail.com</email><uri>https://ivanfranco.wordpress.com</uri></author><summary>The Prynth site is now live. This is a work in progress so be patient with any missing information. I promise to try to keep it fresh and updated. To stay tuned there’s RSS or Facebook links located at the footer.</summary></entry></feed>
+&lt;p&gt;For those afraid of picking up the soldering iron, we say: don’t be intimidated! We’ve all been there. And once your first thingy works, be sure you’ll have that “yay” moment!&lt;/p&gt;</content><author><name>Ivan Franco</name><email>ivan.almeida.franco@gmail.com</email><uri>https://ivanfranco.wordpress.com</uri></author><summary>Thank you all for the amazing enthusiasm from makers and media. Maybe we are off to something really good!</summary></entry></feed>

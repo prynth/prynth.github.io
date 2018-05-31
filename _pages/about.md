@@ -49,7 +49,9 @@ table, tr, td, th {border: 0px;font-size: 1em;}
 
 | [![Ivan Franco](images/ifranco.png){:width="400px" .align-left}](../images/ifranco.png) | This project is part of the research of [Ivan Franco](https://ivanfranco.wordpress.com/){:target="_blank"} at the Input Devices and Music Interaction Laboratory [(IDMIL)](http://www.idmil.org/) / [CIRMMT](http://www.cirmmt.org/) / [McGill University](http://www.mcgill.ca/), under the supervision of [Marcelo M. Wanderley](http://idmil.org/people/marcelo_m._wanderley) and funded by the Fundação para a Ciência e Tecnologia [(FCT)](http://www.fct.pt/). |
 
+<h3>Collaborators:</h3> Harish Venkatesan, Ajin Tom, Antoine Maiorca.
 
+<h3>Sponsors:</h3>
 <a rel="sponsor" href="http://idmil.org/"><img alt="IDMIL" style="height:80px; padding-left: 10px;" src="/images/logos/idmil.png" />
 <a rel="sponsor" href="http://www.cirmmt.org/"><img alt="CIRMMT" style="height:80px; padding-left: 10px;" src="/images/logos/cirmmt.jpg" />
 <a rel="sponsor" href="http://www.mcgill.ca/"><img alt="McGill" style="width:300px; padding-left: 10px;" src="/images/logos/mcgill.png" />
