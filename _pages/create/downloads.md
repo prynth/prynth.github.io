@@ -26,7 +26,7 @@ We have also created a Linux distribution for the Raspberry Pi, based on the off
 
 Download the image file and head to the documentation for [installation details](../doc/#installing-the-raspberry-pi-image).
 
-[Download Prynth v0.5 RPi image (2018-06-01)](http://idmil.org/pub/software/prynth/2018-06-01-prynth-v05.img.zip){: download .btn .btn--warning} <mark>NEW!</mark>
+[Download Prynth v0.5 RPi image (2018-06-04)](http://idmil.org/pub/software/prynth/2018-06-04-prynth-v05.img.zip){: download .btn .btn--warning} <mark>NEW!</mark>
 
 [Previous Prynth RPi v0.41 beta image (2018-03-22 v. 0.41 Beta)](http://idmil.org/pub/software/prynth/2018-03-22-prynth-v041.img.zip){: download .btn .btn--warning} (if using pcb versions prior to v0.5)
 
