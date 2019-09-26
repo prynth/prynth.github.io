@@ -22,11 +22,13 @@ After downloading the files use a service like [OshPark](https://oshpark.com/), 
 
 # Raspberry Pi image
 
-We have also created a Linux distribution for the Raspberry Pi, based on the official Raspbian Jessie Lite, but that automatically runs the Prynth software out-of-the-box.
+We have also created a Linux distribution for the Raspberry Pi, based on the official Raspbian Lite, but that automatically runs the Prynth software out-of-the-box.
 
 Download the image file and head to the documentation for [installation details](../doc/#installing-the-raspberry-pi-image).
 
-[Download Prynth v0.51 RPi image (2018-10-30)](http://www-media.idmil.org/software/2018-10-30-prynth-v051.img.zip){: download .btn .btn--warning}
+[Prynth v0.52 RPi image (2019-09-23) (RPi 3 only)](http://www-media.idmil.org/software/prynth/2019-09-23-prynth-v052.img.zip){: download .btn .btn--warning}
+
+[Previous Prynth v0.51 RPi image (2018-10-30) (RPi 3 and 4)](http://www-media.idmil.org/software/prynth/2018-10-30-prynth-v051.img.zip){: download .btn .btn--warning}
 
 
 <!-- [Download Prynth v0.5 RPi image (2018-06-08)](http://idmil.org/pub/software/prynth/2018-06-08-prynth-v05.img.zip){: download .btn .btn--warning} -->
