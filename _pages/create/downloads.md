@@ -26,6 +26,8 @@ We have also created a Linux distribution for the Raspberry Pi, based on the off
 
 Download the image file and head to the documentation for [installation details](../doc/#installing-the-raspberry-pi-image).
 
+[Prynth v0.53 RPi image (2021-01-12) (RPi 4)](http://www-media.idmil.org/software/prynth/2021-01-12-prynth-v053.img.zip){: download .btn .btn--warning}
+
 [Prynth v0.52 RPi image (2019-11-18) (RPi 3 and 4)](http://www-media.idmil.org/software/prynth/2019-11-18-prynth-v052.img.zip){: download .btn .btn--warning}
 
 [Previous Prynth v0.51 RPi image (2018-10-30) (RPi 3 only)](http://www-media.idmil.org/software/prynth/2018-10-30-prynth-v051.img.zip){: download .btn .btn--warning}
@@ -40,4 +42,4 @@ Download the image file and head to the documentation for [installation details]
 
 Download the Teensy source file program. In the documentation you'll find more instructions on installing the Teensyduino library and [uploading the firmware](../doc/#uploading-the-teensy-firmware) to the Teensy.
 
-[Download Teensy v0.5 source code ](https://github.com/prynth/prynth/blob/master/teensy/teensy.zip?raw=true){: .btn .btn--warning}
+[Download Teensy v0.53 source code ](https://github.com/prynth/prynth/blob/master/teensy/teensy.zip?raw=true){: .btn .btn--warning}
